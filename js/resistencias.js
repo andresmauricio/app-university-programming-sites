@@ -9,4 +9,4 @@ function calculateOhmios(bandOne, bandTwo, bandThree ) {
     const firstValue = Number(`${bandOne}${bandTwo}`);
     const secondValue = Number(bandThree);
     document.getElementById('result_calc').value = `${firstValue * secondValue} Ohmios`;
-}
+} 

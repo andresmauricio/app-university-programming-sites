@@ -11,7 +11,7 @@ function getForm() {
         alert('Ingrese todos los campo');
     }
     
-}
+} 
 
 function profits(value, utility) {
     let result = value * (utility / 100);
