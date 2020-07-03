@@ -1,53 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="./styles/fases.css" />
-    <title>Fases</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-  </head>
+<?php include("./includes/header.php") ?>
+<link rel="stylesheet" href="styles/fases.css" />
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Texas Electronics</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="#">Administrador</a>
-            <a class="nav-item nav-link" href="inventatios.html">Inventario</a>
-            <a class="nav-item nav-link" href="utilities.html">Utilidades</a>
-            <a class="nav-item nav-link active" href="fases.html">Fases</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <!-- <header>
-        <h1>Presaberes</h1>
-        <section class="wrapp">
-            <h2><span>Nombre:</span> Andrés Mauricio Acelas Arevalo</h2>
-            <h2><span>Grupo:</span> 301127A_762</h2>
-            <h2><span>Skype y correo:</span> andresacelas@outlook.com</h2>
-            <h2><span>Celular:</span> 315-735-0570</h2>
-        </section>
-    </header> -->
     <main class="container">
       <h2>Fase Presaberes</h2>
       <hr />
@@ -421,5 +374,4 @@
         </li>
       </ul>
     </div>
-  </body>
-</html>
+<?php  include("./includes/footer.php")?>
